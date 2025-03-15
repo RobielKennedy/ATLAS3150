@@ -1,0 +1,62 @@
+<!-- Active learning 1: creating your first HTML element -->
+
+<!-- Used the Prettier extention to make formating easier to read after saving file. Really usefully :)-->
+
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8" />
+
+    <title>My page title</title>
+    <link
+      href="https://fonts.googleapis.com/css?family=Open+Sans+Condensed:300|Sonsie+One"
+      rel="stylesheet"
+      type="text/css"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <!-- the below three lines are a fix to get HTML5 semantic elements working in old versions of Internet Explorer-->
+    <!--[if lt IE 9]>
+      <script src="https://cdnjs.cloudflare.com/ajax/libs/html5shiv/3.7.3/html5shiv.js"></script>
+    <![endif]-->
+  </head>
+  <!-- I included the body element below which is not part of the html version or the head to make
+    make sure you include it above your HTML code -->
+  <body>
+    <h1>I AM MUSIC</h1>
+    <p>
+      I love listeing to music and earlier this morning famous rapper,
+      <a
+        href="https://en.wikipedia.org/wiki/Playboi_Carti"
+        title="Playboi_Carti"
+        >Playboi Carti</a
+      >, who recently dropped is most anticipated album
+      <strong>
+        <a
+          href="https://genius.com/albums/Playboi-carti/Music"
+          title="Genius_Webiste"
+        >
+          I AM MUSIC
+        </a></strong
+      >
+      where fans have been waiting for this drop for 5 years. Haven't fully
+      finished listening it to it complete but at this moment I give it a 7.6/10
+      but score will most def increase. His last album that he dropped was
+      <strong>
+        <a
+          href="https://genius.com/albums/Playboi-carti/Whole-lotta-red"
+          title="Genius_Webiste"
+        >
+          Whole Lotta Red.</a
+        ></strong
+      >
+
+      <img
+        src="data:image/png;base64,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"
+        alt="I AM MUSIC Logo"
+        width="500"
+        height="500"
+      />
+    </p>
+  </body>
+</html>
